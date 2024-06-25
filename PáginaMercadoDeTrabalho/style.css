@@ -515,6 +515,12 @@ footer img {
     width: 13%;
 }
 
+.fotoLink img:hover{
+    box-shadow: 0 0 30px #00ff08;
+    border-radius: 100%;
+    transition: all .5s ease-in-out;
+}
+
 .logofooter {
     width: 30%;
 }
