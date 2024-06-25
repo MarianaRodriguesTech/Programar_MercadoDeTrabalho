@@ -183,6 +183,11 @@ button.ativar .linha:nth-child(2){
     font-weight: normal;
 }
 
+.darkmode i{
+    color: #ffffff;
+
+}
+
 /* .darkmode .subtitulos{
     background-color: #bfffbc;
 } */
@@ -401,9 +406,14 @@ p {
 }
 
 .fa-solid {
-    margin-bottom: 0.5em;
+    margin-bottom: 15px;
     font-size: 40px;
 }
+
+i{
+    margin-top: 15px;
+}
+
 
 
 /* CARDS */
@@ -482,6 +492,7 @@ p {
 }
 
 .icons-soft p {
+    margin-top: 1.2em;
     font-family: "Poppins", sans-serif;
     font-size: .5em;
     text-align: center;
