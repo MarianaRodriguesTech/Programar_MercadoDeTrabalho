@@ -177,7 +177,7 @@ button.ativar .linha:nth-child(2){
     margin: 0 auto;
     margin-bottom: 10%;
     text-align: center;
-    box-shadow: -1em 1em #000000,
+    box-shadow: -1em 1em #171516,
         -2em 2em #B760FF;
     margin-top: 5em;
     font-weight: normal;
@@ -391,6 +391,7 @@ p {
 
 
 .iconesSustentabilidade {
+    margin-top: 10px;
     align-items: center;
     padding: 2.2em;
     display: flex;
@@ -486,8 +487,8 @@ i{
 }
 
 .icons-soft i {
-    margin-top: 1em;
-    font-size: 2em;
+    margin-top: 1.5em;
+    font-size: 2.1em;
     transition: all .5s ease-in-out;
 }
 
@@ -558,11 +559,15 @@ footer img {
 
 span {
     color: #4DFF53;
-    font-weight: 900;
+    font-weight: 700;
 }
 
 footer a {
     width: 100%;
+}
+
+footer h3{
+ font-weight: 800;
 }
 
 
@@ -621,11 +626,11 @@ footer a {
         justify-content: center;
         align-items: center;
         left: 35%;
-
         z-index: 5;
         text-align: center;
         position: relative;
         top: 3em;
+        margin-bottom: 15%;
         width: 30%;
     }
 
@@ -655,6 +660,7 @@ footer a {
     justify-content: center;
     flex-direction: column;
     align-items: center;
+    
 }
 
 .sustentability h4{
@@ -668,10 +674,24 @@ footer a {
  flex-direction: column ;
 } 
 
+
 /* SOFTSKILLS */
 
-.softskills{
-    width: 300px;
+
+.softskills h1{
+    text-align: center;
+}
+
+.icons-soft{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+i{
+    justify-content: center;
+    width: 5em;
+    gap: 10px;
 }
 
 /* FOOTER RESPONSIVIDADE */
@@ -731,7 +751,7 @@ footer {
 
 span {
     color: #4DFF53;
-    font-weight: 100;
+    font-weight: 700;
 }
 
 footer a {
