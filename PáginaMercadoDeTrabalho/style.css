@@ -421,10 +421,13 @@ i{
 
 .cards {
     display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .box-card img {
-    width: 100%;
+    width: 400px;
+  
 }
 
 /* BOTAO CARD */
@@ -446,7 +449,7 @@ i{
 .btn-card {
     z-index: 5;
     position: relative;
-    top: -2.4em;
+    top: -2.1em;
 }
 
 .box-card .btn-card a:hover {
@@ -454,7 +457,7 @@ i{
     z-index: 5;
     background-color: #4DFF53;
     padding: .5em;
-    box-shadow: 0px 4px 1px black;
+    box-shadow: 0px 4px 1px #B760FF;
 }
 
 
