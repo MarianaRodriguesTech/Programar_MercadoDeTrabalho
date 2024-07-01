@@ -88,6 +88,77 @@ body {
 
 }
 
+/* BOTAO ICONE */
+button{
+    margin-right: 3em;
+    /* width: 50px; */
+    /* height: 50px; */
+    /* border: 2px solid #4DFF53; */
+    border: none;
+    background: transparent;
+    border-radius: 5px;
+    cursor: pointer;
+    display: none;
+}
+
+.linha{
+    width: 50px;
+    height: 5px;
+    background-color: #4DFF53;
+    /* box-shadow: 0 0 10px #4DFF53; */
+    display: block;
+    text-align: center;
+    margin: 10px;
+    position: relative;
+    transform-origin: center ;
+    transition: .3s;
+}
+
+
+button.ativar .linha:nth-child(1){
+    transform: translateY(10px) rotate(-40deg);
+    background-color: #b760ff;
+    box-shadow: 0 0 10px #b760ff;
+}
+
+button.ativar .linha:nth-child(3){
+    transform: translateY(-18px) rotate(40deg);
+    background-color: #b760ff;
+    box-shadow: 0 0 10px #b760ff93;
+}
+
+button.ativar .linha:nth-child(2){
+    opacity: 0;
+}
+
+/* CELULAR */
+
+@media screen and (max-width: 900px) {
+    .navbar, a{
+        display: none;
+    }
+    
+    .logo{
+        width: 50%;
+    }
+
+    .menu-mobile.abrir{
+        visibility: visible;
+        height: calc(100vh - 120px);
+        z-index: 5;
+    }
+
+    button{
+        display: block;
+    }
+
+    section{
+        top: 0;
+        left: 1;
+    }
+
+}
+
 
 /* BOTAO ICONE */
 button{
